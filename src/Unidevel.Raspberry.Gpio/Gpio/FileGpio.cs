@@ -112,14 +112,14 @@ namespace Unidevel.Raspberry.Gpio
 
         private void write(string path, string value)
         {
-            logger?.LogInformation($"GPIO write {path} << {value}");
+            logger?.LogDebug($"GPIO write {path} << {value}");
             File.WriteAllText(path, value);
         }
 
         private string read(string path)
         {
             var value = File.ReadAllText(path);
-            logger?.LogInformation($"GPIO read {path} >> {value}");
+            logger?.LogDebug($"GPIO read {path} >> {value}");
             return value;
         }
     }
