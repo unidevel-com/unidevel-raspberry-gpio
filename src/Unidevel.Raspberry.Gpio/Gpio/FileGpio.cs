@@ -76,8 +76,8 @@ namespace Unidevel.Raspberry.Gpio
         {
             if (pinInstance.Direction != direction)
             {
-                switchDirection(pinInstance.Pin, Direction.Output);
-                pinInstance.Direction = Direction.Output;
+                switchDirection(pinInstance.Pin, direction);
+                pinInstance.Direction = direction;
             }
         }
 
