@@ -4,12 +4,28 @@ Raspberry PI library for controlling GPIO inputs and outputs.
 
 ## Code Example
 
+```csharp
 IGpio gpio = new FileGpio();
 
 gpio[2] = true; // sets GPIO 2 to HIGH
 gpio[5] = false; // sets GPIO 5 to LOW
 
-var b = gpio[4]; // gets value of GPIO 4
+var b = gpio[4]; // gets value of GPIO 4`
+```
+
+Complete interface is:
+
+```csharp
+public interface IGpio
+{
+    /// <summary>
+    /// Sets PIN to high (true) or low (false).
+    /// </summary>
+    /// <param name="gpioPinNumber">Pin to set or get value from. Must be between 1 and 32, inclusive.</param>
+    /// <returns>Pin value.</returns>
+    bool this[int gpioPinNumber] { get;set; }
+}
+```
 
 ## Motivation
 
