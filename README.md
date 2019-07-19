@@ -1,6 +1,6 @@
 ## Synopsis
 
-Raspberry PI library for controlling GPIO inputs and outputs. 
+Raspberry PI library for controlling GPIO inputs and outputs with minimal interface.
 
 ## Code Example
 

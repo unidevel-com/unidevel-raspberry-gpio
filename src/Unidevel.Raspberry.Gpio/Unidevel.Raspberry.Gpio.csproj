@@ -13,6 +13,7 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Description>Raspberry PI library for controlling GPIO inputs and outputs.</Description>
     <PackageReleaseNotes>Initial release extracted from home automation project.</PackageReleaseNotes>
+    <Company>Unidevel.com</Company>
   </PropertyGroup>
 
   <ItemGroup>
