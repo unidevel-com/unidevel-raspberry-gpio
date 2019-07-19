@@ -10,7 +10,7 @@ IGpio gpio = new FileGpio();
 gpio[2] = true; // sets GPIO 2 to HIGH
 gpio[5] = false; // sets GPIO 5 to LOW
 
-var b = gpio[4]; // gets value of GPIO 4`
+var b = gpio[4]; // gets value of GPIO 4
 ```
 
 Complete interface is:
