@@ -6,6 +6,11 @@
     <Version>0.0.1</Version>
     <Authors>Unidevel.com Grzegorz Strzałkowski</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/unidevel-com/unidevel-raspberry-gpio</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/unidevel-com/unidevel-raspberry-gpio</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>raspberry,pi,gpio,minimal,simple,io,pin</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>

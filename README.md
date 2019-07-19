@@ -1,22 +1,29 @@
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+Raspberry PI library for controlling GPIO inputs and outputs. 
 
 ## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+IGpio gpio = new FileGpio();
+
+gpio[2] = true; // sets GPIO 2 to HIGH
+gpio[5] = false; // sets GPIO 5 to LOW
+
+var b = gpio[4]; // gets value of GPIO 4
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+Initially developed for home automation after several bad experiences with other libraries (failures on signals etc.). 
+This one is absolutely simple and has minimal dependencies. Tasks related to switching PIN mode are handled internally. Also
+concurrency should be quite well handled BUT singleton instance of FileGpio() class should be created (use dependency injection, please).
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+Use NuGet.
 
 ## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+Look at code example should be enough.
 
 ## Tests
 
@@ -24,8 +31,8 @@ Describe and show how to run the tests with code examples.
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+Every contributor is welcome here. But keep it simple.
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+I like MIT licence for my work, so this one will be used.
