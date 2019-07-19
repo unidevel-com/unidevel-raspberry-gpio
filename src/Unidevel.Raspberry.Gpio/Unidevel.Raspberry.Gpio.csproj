@@ -4,13 +4,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Unidevel.Raspberry</RootNamespace>
     <Version>0.0.1</Version>
-    <Authors>Unidevel.com Grzegorz Strzałkowski</Authors>
+    <Authors>Grzegorz Strzałkowski</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/unidevel-com/unidevel-raspberry-gpio</PackageProjectUrl>
     <RepositoryUrl>https://github.com/unidevel-com/unidevel-raspberry-gpio</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>raspberry,pi,gpio,minimal,simple,io,pin</PackageTags>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>Raspberry PI library for controlling GPIO inputs and outputs.</Description>
+    <PackageReleaseNotes>Initial release extracted from home automation project.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
